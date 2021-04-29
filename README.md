@@ -1,6 +1,13 @@
 # What is this?
 A simple device driver written in python, for old (ca 2005) DeskCNC CNC mills. Works without the original DeskCNC software, can be used to replace it, e.g. on a raspberry pi. It connects to the device on a serial port, and controls the machine. The python script accepts and executes standard G-code commands from a file or standard input. 
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/44381886/116586671-013dc000-a91a-11eb-895a-786ccd49ba33.jpg" alt="photo5242723118185818911" height="250" />
+  <img src="https://user-images.githubusercontent.com/44381886/116586680-0438b080-a91a-11eb-9840-3117a16276d4.jpg" alt="photo5271833315596413812" height="250" /> 
+</p>
+
+Objects made with [deskcnc_serial.py](deskcnc_serial.py)
+
 # Features
 - Tested on Linux, MacOS and Windows
 - Can be used as standalone executable (e.g. run `./deskcnc_serial.py /dev/ttyUSB0 gcode.nc`) or as python module (`import deskcnc_serial`, for example [hofalapp_cncserver](https://github.com/hofa-lab/HoFaLapp/blob/main/hofalapp_cncserver.py) does this)
