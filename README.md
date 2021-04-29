@@ -2,8 +2,8 @@
 A simple device driver written in python, for old (ca 2005) DeskCNC CNC mills. Works without the original DeskCNC software, can be used to replace it, e.g. on a raspberry pi. It connects to the device on a serial port, and controls the machine. The python script accepts and executes standard G-code commands from a file or standard input. 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/44381886/116586671-013dc000-a91a-11eb-895a-786ccd49ba33.jpg" alt="photo5242723118185818911" height="250" />
-  <img src="https://user-images.githubusercontent.com/44381886/116586680-0438b080-a91a-11eb-9840-3117a16276d4.jpg" alt="photo5271833315596413812" height="250" /> 
+  <img src="https://user-images.githubusercontent.com/44381886/116586671-013dc000-a91a-11eb-895a-786ccd49ba33.jpg" alt="photo5242723118185818911" height="200" />
+  <img src="https://user-images.githubusercontent.com/44381886/116586680-0438b080-a91a-11eb-9840-3117a16276d4.jpg" alt="photo5271833315596413812" height="200" /> 
 </p>
 
 Objects made with [deskcnc_serial.py](deskcnc_serial.py)
