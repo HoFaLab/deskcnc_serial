@@ -32,5 +32,5 @@ Objects made with [deskcnc_serial.py](deskcnc_serial.py)
 
 # Usage Hints
 - Currently, the starting position (where the tool is when the python script is launched) is always used as origin `(0,0,0)` of the absolute coordinate system and this can not be changed later.
-- So, first physically move the tool to whererver you want `(0,0,0)` to be, e.g using G0 commands in interactive mode, then restart deskcnc_serial.py
+- So, first physically move the tool to wherever you want `(0,0,0)` to be, e.g using G0 commands in interactive mode, then restart deskcnc_serial.py
 - This does not turn the milling spindle on automatically, so double-check that there is an M3 command in your G-Code file before executing it.
